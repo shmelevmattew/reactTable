@@ -8,8 +8,6 @@ import Header from "./components/Header/Header";
 function App() {
   const [rows,setRows] = useState([])
   useEffect(()=>{
-    console.log(supabase)
-    console.log(getTableData().then(res=>setRows(res)))
   },[])
   return (
     <div className="App">
